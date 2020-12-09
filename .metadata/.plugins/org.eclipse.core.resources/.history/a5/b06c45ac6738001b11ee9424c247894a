@@ -1,0 +1,20 @@
+package com.mindfull.ptest.model;
+
+import org.springframework.data.annotation.Id;
+
+public class Event {
+	
+	@Id
+	private String id;
+	
+	private String location;
+	
+	private String eventTime;
+	
+	private String eventDate;
+	
+	private String eventPrice;
+	
+	private String seats;
+
+}

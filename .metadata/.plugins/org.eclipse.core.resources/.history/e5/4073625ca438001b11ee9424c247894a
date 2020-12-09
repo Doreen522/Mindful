@@ -1,0 +1,2 @@
+
+spring.data.mongodb.uri= mongodb://mf-user:<password>@cluster0.xsedl.mongodb.net/<dbname>?retryWrites=true&w=majority

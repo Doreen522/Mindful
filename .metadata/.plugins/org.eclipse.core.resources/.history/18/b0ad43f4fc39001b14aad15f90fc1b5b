@@ -1,0 +1,5 @@
+
+
+
+spring.data.mongodb.uri=  mongodb+srv://mindful_user:*Suthanposhi225*@cluster0.znj1l.mongodb.net/MINDFUL_DB?retryWrites=true&w=majority
+

@@ -1,0 +1,7 @@
+package com.mindfull.ptest.serviceImplementation;
+
+import com.mindfull.ptest.service.eventService;
+
+public class eventServiceImpl implements eventService {
+
+}

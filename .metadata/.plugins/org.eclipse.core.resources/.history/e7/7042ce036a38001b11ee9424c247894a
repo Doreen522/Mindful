@@ -1,0 +1,9 @@
+package com.mindfull.ptest.Repository;
+
+import javax.lang.model.element.Element;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface eventRepository extends MongoRepository<Element, String> {
+
+}

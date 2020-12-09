@@ -1,0 +1,12 @@
+package com.mindfull.ptest.Controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class userController {
+	
+	public String doName() {
+		return "Hi";
+	}
+
+}

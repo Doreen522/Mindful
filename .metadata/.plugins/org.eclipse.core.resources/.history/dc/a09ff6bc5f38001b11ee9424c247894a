@@ -1,0 +1,5 @@
+package com.mindfull.ptest.model;
+
+public class User {
+
+}

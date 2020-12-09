@@ -1,0 +1,5 @@
+package com.mindfull.ptest.Repository;
+
+public interface eventRepository {
+
+}

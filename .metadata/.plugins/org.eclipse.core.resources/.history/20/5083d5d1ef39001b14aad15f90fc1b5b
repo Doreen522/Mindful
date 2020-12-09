@@ -1,0 +1,9 @@
+
+
+
+
+MongoClientURI uri = new MongoClientURI(
+    "mongodb+srv://Mf-user:<password>@cluster0.w4vtb.mongodb.net/<dbname>?retryWrites=true&w=majority");
+
+MongoClient mongoClient = new MongoClient(uri);
+MongoDatabase database = mongoClient.getDatabase("test");

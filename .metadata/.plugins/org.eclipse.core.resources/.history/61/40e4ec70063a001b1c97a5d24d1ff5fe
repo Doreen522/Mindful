@@ -1,0 +1,4 @@
+
+
+
+spring.data.mongodb.uri=  mongodb://mindful_user:mindful_password@cluster0-shard-00-00.znj1l.mongodb.net:27017,cluster0-shard-00-01.znj1l.mongodb.net:27017,cluster0-shard-00-02.znj1l.mongodb.net:27017/MINDFUL_DB?ssl=true&replicaSet=atlas-xfly9z-shard-0&authSource=admin&retryWrites=true&w=majority

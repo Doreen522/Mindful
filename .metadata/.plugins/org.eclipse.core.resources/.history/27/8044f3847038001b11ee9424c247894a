@@ -1,0 +1,12 @@
+package com.mindfull.ptest.service;
+
+import com.mindfull.ptest.model.Event;
+
+public interface eventService {
+	public Event createEvent(Event event);
+	
+	public Event getEventByDate(String eventDate);
+	
+	public Event getEventByPrice(String eventPrice);
+
+}

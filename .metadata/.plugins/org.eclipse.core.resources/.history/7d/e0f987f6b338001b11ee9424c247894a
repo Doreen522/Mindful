@@ -1,0 +1,24 @@
+package com.mindfull.ptest.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.mindfull.ptest.model.User;
+import com.mindfull.ptest.service.userService;
+//@RequestMapping
+@RestController()
+public class userController {
+	
+	@Autowired
+	userService userServ;
+	
+	
+	@RequestMapping (value="/", method=RequestMethod.POST)
+	public User addNewClient() {
+		return userServ.createUser(user);
+	}
+
+}
